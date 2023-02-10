@@ -7,7 +7,7 @@ class UserManager
     return @users << user
   end
 
-  def get_all_users
+  def all_users
     return @users
   end
 end
